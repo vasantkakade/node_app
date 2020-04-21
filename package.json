@@ -5,8 +5,8 @@
   "author": "Vasant Kakade <kakadevasant936@gmail.com>",
   "main": "server.js",
   "scripts": {
-    "start": "forever start index.js",
-    "stop": "forever stopall"
+    "start": "node index.js",
+    "stop": "npm stop"
   },
   "dependencies": {
     "express": "^4.16.1"
